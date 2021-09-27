@@ -4,10 +4,12 @@ the logistic model (or logit model) is used to model the probability of a certai
 ## Loss function 
 used **Logarithmic** loss function to measure how much the average model predictions vary from the correct values.
 
-<p align="center">
-The following graph shows the decay of loss function aginist the number of iterations 
-  <img src="results\LossGraph.jpg" width="80%" title="Loss Graph">
-</p>
+<div align="center">
+    <p>
+    The following graph shows the decay of loss function aginist the number of iterations 
+    </p>
+    <img src="results\LossGraph.jpg" width="40%" title="Loss Graph">
+</div>
 
 ## optimization
 I used **Gradient Descent** an optimization algorithm, to update the parameters of our model
